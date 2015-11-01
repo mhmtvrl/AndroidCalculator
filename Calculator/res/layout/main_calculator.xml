@@ -1,0 +1,274 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+<!-- ////////////////Equation Display Screen/////////////// -->
+    <TextView
+        android:id="@+id/tvEquationDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="right"
+        android:textSize="45dp" />
+<!-- ////////////////////////////////////////////// -->
+    
+<!-- ////////////////Display Screen/////////////// -->
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="right"
+        android:text="0"
+        android:textSize="45dp" />
+<!-- ////////////////////////////////////////////// -->
+
+<!-- //////////////First Line Buttons///////////// -->
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="Back"
+        android:layout_gravity="center"
+        android:id="@+id/bBackSpace"
+        />
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="sqrt"
+        android:layout_gravity="center"
+        android:id="@+id/bSqrt"
+        />
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="sqr"
+        android:layout_gravity="center"
+        android:id="@+id/bSquare"
+        />
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="1/x"
+        android:layout_gravity="center"
+        android:id="@+id/bOneOverX"
+        />
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="abs"
+        android:layout_gravity="center"
+        android:id="@+id/bAbs"
+        />
+	</LinearLayout>
+	
+<!-- /////////////////////////////////////////////// -->
+    
+ <!-- //////////////Second Line Buttons///////////// -->
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="7"
+        android:layout_gravity="center"
+        android:id="@+id/bSeven"
+        />
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="8"
+        android:layout_gravity="center"
+        android:id="@+id/bEight"
+        />
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="9"
+        android:layout_gravity="center"
+        android:id="@+id/bNine"
+        />
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="+"
+        android:layout_gravity="center"
+        android:id="@+id/bAdd"
+        />
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="CE"
+        android:layout_gravity="center"
+        android:id="@+id/bCE"
+        />
+	</LinearLayout>
+	
+<!-- /////////////////////////////////////////////// -->
+
+<!-- //////////////Third Line Buttons///////////// -->
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="4"
+        android:layout_gravity="center"
+        android:id="@+id/bFour"
+        />
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="5"
+        android:layout_gravity="center"
+        android:id="@+id/bFive"
+        />
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="6"
+        android:layout_gravity="center"
+        android:id="@+id/bSix"
+        />
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="-"
+        android:layout_gravity="center"
+        android:id="@+id/bSub"
+        />
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="C"
+        android:layout_gravity="center"
+        android:id="@+id/bC"
+        />
+	</LinearLayout>
+	
+<!-- /////////////////////////////////////////////// -->
+
+<!-- //////////////Fourth Line Buttons///////////// -->
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="1"
+        android:layout_gravity="center"
+        android:id="@+id/bOne"
+        />
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="2"
+        android:layout_gravity="center"
+        android:id="@+id/bTwo"
+        />
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="3"
+        android:layout_gravity="center"
+        android:id="@+id/bThree"
+        />
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="/"
+        android:layout_gravity="center"
+        android:id="@+id/bDivide"
+        />
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="%"
+        android:layout_gravity="center"
+        android:id="@+id/bMod"
+        />
+	</LinearLayout>
+	
+<!-- /////////////////////////////////////////////// -->
+
+<!-- //////////////Fifth Line Buttons///////////// -->
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="+/-"
+        android:layout_gravity="center"
+        android:id="@+id/bSign"
+        />
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="0"
+        android:layout_gravity="center"
+        android:id="@+id/bZero"
+        />
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="."
+        android:layout_gravity="center"
+        android:id="@+id/bPoint"
+        />
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="*"
+        android:layout_gravity="center"
+        android:id="@+id/bMultiply"
+        />
+    
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="50dp" 
+        android:text="="
+        android:layout_gravity="center"
+        android:id="@+id/bEqual"
+        />
+	</LinearLayout>
+	
+<!-- /////////////////////////////////////////////// -->
+
+
+</LinearLayout>
+
